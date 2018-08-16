@@ -1,0 +1,66 @@
+.container {
+    width: 800px;
+    height: 800px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.square {
+    width:40px;
+    height: 40px;
+    float:left;
+    background-color:white;
+    border: 1px solid rgb(10, 130, 134);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hov {
+    background-color: black;
+}
+
+.btn {
+    margin: 20px;
+    padding: 0 20px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-family: 'Hanalei Fill', cursive;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#btncnt{
+    text-align: center;
+}
+
+#title{
+    font-family: 'Hanalei Fill', cursive;
+    text-align:center;
+    font-size: 50px;
+    color:white;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, turquoise, rgb(16, 140, 182));
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left:0;
+    margin: 0 0;
+    text-align:center;
+    font-family: 'Hanalei Fill', cursive;
+    background-color: lightblue;
+}
